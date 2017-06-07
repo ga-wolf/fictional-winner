@@ -23,6 +23,7 @@ class Search extends Component {
       <form onSubmit={this.searchForUser}>
         <h2>Search for a user</h2>
         <input
+          className="u-full-width"
           type="text"
           name="search"
           value={this.state.searchTerm}
